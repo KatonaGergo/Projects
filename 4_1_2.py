@@ -5,13 +5,15 @@ for i in range(5):
     number = input("Írj ide egy számot: ")
     if number.isnumeric():
         num.append(int(number))
+    else:
+        print("Nem megfelelő bevitel!")
+        break
 
 for number in num:
     if number % 2 == 0:
         print(f"A {number} páros.")
     else:
         print(f"A {number} páratlan.")
-    print("A szám páratlan.")
 
 #4-2-3. Feladat
 
