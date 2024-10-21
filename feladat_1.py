@@ -45,7 +45,7 @@ for i in range(iteration_count):
 
 
 
-#5. feladat
+#6. feladat
 
 random_numbers = []
 
