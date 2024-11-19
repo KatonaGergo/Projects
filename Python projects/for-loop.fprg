@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for-loop"/>
+        <attribute name="authors" value="katona.gergo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 11:59:33 de."/>
+        <attribute name="created" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjUzOjQ5IGRlLjszMzE1"/>
+        <attribute name="edited" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjU5OjMzIGRlLjsxOzM0MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <declare name="i" type="Real" array="False" size=""/>
+            <output expression="&quot;&#205;rj be egy sz&#225;mot&quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="num" end="0" direction="dec" step="5">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="do"/>
+        <attribute name="authors" value="katona.gergo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 12:00:41 du."/>
+        <attribute name="created" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjU5OjQwIGRlLjszMzEy"/>
+        <attribute name="edited" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjU5OjQ5IGRlLjsxO2thdG9uYS5nZXJnbztCVVJHLTFFMDYtMTg7MjAyNC0wOS0yNDsxMTo0NzoyNyBkZS47d2hpbGUuZnByZzs3ODc1"/>
+        <attribute name="edited" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzEyOjAwOjQxIGR1LjsxOzM0MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <output expression="&quot;&#205;rj be egy sz&#225;mot!&quot;" newline="True"/>
+            <input variable="num"/>
+            <do expression="num&gt;0">
+                <output expression="num" newline="True"/>
+                <assign variable="num" expression="num-5"/>
+            </do>
+            <output expression="&quot;V&#233;ge&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

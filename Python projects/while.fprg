@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="while"/>
+        <attribute name="authors" value="katona.gergo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 11:57:18 de."/>
+        <attribute name="created" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjQ3OjI3IGRlLjszMzE0"/>
+        <attribute name="edited" value="a2F0b25hLmdlcmdvO0JVUkctMUUwNi0xODsyMDI0LTA5LTI0OzExOjU3OjE4IGRlLjsxOzM0MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <output expression="&quot;&#205;rj be egy sz&#225;mot!&quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="num &gt; 0">
+                <output expression="num" newline="True"/>
+                <assign variable="num" expression="num-5"/>
+            </while>
+            <output expression="&quot;V&#233;ge&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

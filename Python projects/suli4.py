@@ -6,23 +6,22 @@ mean_value = ''
 sorted_list = ''
 highest_number = ''
 
+num = int(input("Írj ide egy számot!"))
 
-while True:
-    num = int(input("Írj ide egy számot (0, ha ki akarsz lépni): "))
-    if num == 0: 
-        break
+while num != 0:
+    num = int(input("Írj ide egy számot!"))
     numbers.append(num)
 
-if numbers:
-    total = sum(numbers)
-    mean_value = statistics.mean(numbers)
-    numbers.sort()
-    highest_number = numbers[-1]
+total = sum(numbers)
+mean_value = statistics.mean(numbers)
+sorted_list = numbers.sort(num)
 
-    
-    print("Total:", total)
-    print("Mean value:", mean_value)
-    print("Sorted list:", numbers)
-    print("Highest number:", highest_number)
-else:
-    print("Nem adtál meg számokat!")
+
+for i in range(0, len(numbers)):
+    if i == (len(numbers)-1):
+        print("A legnagyobb szám: "
+              + str(numbers[i]))
+
+
+
+
